@@ -5,16 +5,6 @@
     <link>https://baimao01.github.io/categories/test/</link>
     <description>Recent content in Test on 白猫的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://baimao01.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>你好</title>
-      <link>https://baimao01.github.io/p/%E4%BD%A0%E5%A5%BD/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://baimao01.github.io/p/%E4%BD%A0%E5%A5%BD/</guid>
-      <description>正文测试 你好呀</description>
-    </item>
-    
+    <language>zh-CN</language><atom:link href="https://baimao01.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
