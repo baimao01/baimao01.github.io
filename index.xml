@@ -2,16 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>白猫的博客</title>
-        <link>http://baimao01.github.io/</link>
+        <link>https://baimao01.github.io/</link>
         <description>Recent content on 白猫的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://baimao01.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 23 Jan 2022 17:09:52 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>自我介绍</title>
+        <link>https://baimao01.github.io/p/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</link>
+        <pubDate>Sun, 23 Jan 2022 17:09:52 +0800</pubDate>
+        
+        <guid>https://baimao01.github.io/p/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</guid>
+        <description>&lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
+&lt;p&gt;你好,如果你看到这篇文章就代表我的博客搭建完成了。你可以在我的博客里浏览，之后我会把一些视频，软件等放在这里。大部分都是免费的并且我制作的希望大家能多多支持。&lt;/p&gt;
+&lt;h2 id=&#34;赞助方式&#34;&gt;赞助方式&lt;/h2&gt;
+&lt;p&gt;如果有能力的话可以为我赞助链接为
+&lt;a class=&#34;link&#34; href=&#34;https://afdian.net/@QPTgongjuxiang?tab=feed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://afdian.net/@QPTgongjuxiang?tab=feed&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>你好</title>
-        <link>http://baimao01.github.io/p/%E4%BD%A0%E5%A5%BD/</link>
+        <link>https://baimao01.github.io/p/%E4%BD%A0%E5%A5%BD/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://baimao01.github.io/p/%E4%BD%A0%E5%A5%BD/</guid>
+        <guid>https://baimao01.github.io/p/%E4%BD%A0%E5%A5%BD/</guid>
         <description>&lt;h2 id=&#34;正文测试&#34;&gt;正文测试&lt;/h2&gt;
 &lt;p&gt;你好呀&lt;/p&gt;
 </description>
