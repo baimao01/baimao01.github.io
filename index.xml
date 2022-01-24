@@ -6,28 +6,78 @@
         <description>Recent content on 白猫的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Sun, 23 Jan 2022 22:06:15 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>回老家</title>
-        <link>https://baimao01.github.io/p/%E5%9B%9E%E8%80%81%E5%AE%B6/</link>
-        <pubDate>Sun, 23 Jan 2022 22:06:15 +0800</pubDate>
+        <lastBuildDate>Mon, 24 Jan 2022 10:42:34 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>如何使用hugo搭建网站并部署到github</title>
+        <link>https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</link>
+        <pubDate>Mon, 24 Jan 2022 10:42:34 +0800</pubDate>
         
-        <guid>https://baimao01.github.io/p/%E5%9B%9E%E8%80%81%E5%AE%B6/</guid>
-        <description>&lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
-&lt;p&gt;由于最近要回老家，本人回来后将会发公告告诉大家，此前将不会更新网站。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>自我介绍</title>
-        <link>https://baimao01.github.io/p/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</link>
-        <pubDate>Sun, 23 Jan 2022 17:09:52 +0800</pubDate>
-        
-        <guid>https://baimao01.github.io/p/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</guid>
-        <description>&lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
-&lt;p&gt;你好,如果你看到这篇文章就代表我的博客搭建完成了。你可以在我的博客里浏览，之后我会把一些视频，软件等放在这里。大部分都是免费的并且我制作的希望大家能多多支持。&lt;/p&gt;
-&lt;h2 id=&#34;赞助方式&#34;&gt;赞助方式&lt;/h2&gt;
-&lt;p&gt;如果有能力的话可以为我赞助链接为
-&lt;a class=&#34;link&#34; href=&#34;https://afdian.net/@QPTgongjuxiang?tab=feed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://afdian.net/@QPTgongjuxiang?tab=feed&lt;/a&gt;&lt;/p&gt;
+        <guid>https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;h3 id=&#34;概述&#34;&gt;概述&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;1.零成本，使用hugo搭建个人网站并部署在GitHub Page上。&lt;/li&gt;
+&lt;li&gt;2.本文不能让你对hugo有全面的认知，由此需求请自行搜索教程或阅读官方文档。&lt;/li&gt;
+&lt;li&gt;3.由于GitHub属于国外的在国内使用体验较差，建议使用国内的Gitee，两者均通用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;相关链接&#34;&gt;相关链接&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gohugo.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo中文官网&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo官网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gohugo.org/theme/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo中文官网皮肤列表&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo官网皮肤列表&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;hugo下载&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://git-scm.com/download/win&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;git下载&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;搭建博客&#34;&gt;搭建博客&lt;/h2&gt;
+&lt;h3 id=&#34;搭建博客之前的准备&#34;&gt;搭建博客之前的准备&lt;/h3&gt;
+&lt;h4 id=&#34;下载安装&#34;&gt;下载安装&lt;/h4&gt;
+&lt;p&gt;我们打开相关链接中的hugo下载以及git下载，按照一下方法下载安装。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hugo 选择你的系统进行下载，以我的为例 &lt;figure style=&#34;flex-grow: 143; flex-basis: 344px&#34;&gt;
+		&lt;a href=&#34;https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png&#34; data-size=&#34;1046x728&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png&#34;
+				srcset=&#34;https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_480x0_resize_box_3.png 480w, https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_1024x0_resize_box_3.png 1024w&#34;
+				width=&#34;1046&#34;
+				height=&#34;728&#34;
+				loading=&#34;lazy&#34;
+				&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt; ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。&lt;/li&gt;
+&lt;li&gt;hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows+R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示 &lt;figure style=&#34;flex-grow: 1735; flex-basis: 4164px&#34;&gt;
+		&lt;a href=&#34;https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png&#34; data-size=&#34;642x37&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png&#34;
+				srcset=&#34;https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_480x0_resize_box_3.png 480w, https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_1024x0_resize_box_3.png 1024w&#34;
+				width=&#34;642&#34;
+				height=&#34;37&#34;
+				loading=&#34;lazy&#34;
+				&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt; 就代表安装成功了。&lt;/li&gt;
+&lt;li&gt;git 下载，在相关链接内找到git下载，打开链接后我们安装你的选择64-bit Git for Windows (如果你的系统是32位就选择32-bit Git for Windows)。下载下来后我们打开Git的安装包然后按Next选择你要安装的位置，之后一直按Next即可。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;github-page&#34;&gt;GitHub Page&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置， &lt;figure style=&#34;flex-grow: 150; flex-basis: 361px&#34;&gt;
+		&lt;a href=&#34;https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png&#34; data-size=&#34;1125x746&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png&#34;
+				srcset=&#34;https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_480x0_resize_box_3.png 480w, https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_1024x0_resize_box_3.png 1024w&#34;
+				width=&#34;1125&#34;
+				height=&#34;746&#34;
+				loading=&#34;lazy&#34;
+				&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt; 都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;开始搭建博客&#34;&gt;开始搭建博客&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;创建本地个人网站 按照之前的方法打开cmd并输入hugo new site 你的网站的名字 ，就在C:User/你的用户名字/ 下生成了一个文件夹，打开它。&lt;/li&gt;
+&lt;li&gt;添加主题 之后我们就需要为我们的网站添加一个主题，首先在相关链接内打开hugo官网皮肤列表(中文也可以但是主题较少)，找到你喜欢的主题之后打开，在打开之后的网页里点击download，把主题下载下来后复制到次路径 C:User/你的用户名字/你的网站名字/themes 目录下之后把主题文件解压并安装当时下载主题时作者告诉你的名字把解压下来的文件命名为那个，之后把主题文件的压缩包删除。然后在解压出来并重新命名的文件夹打开找到以下目录exampleSite打开，把里面的config.toml和content文件夹复制出来到 你的网站名字里替换（如果那个文件夹里没有config.toml只有config.yaml就把config.yaml复制出去并且把config.toml名称改为config_backup.toml）。然后主题就安装完成。&lt;/li&gt;
+&lt;li&gt;未完待续（最近要回老家，剩下的会以后完成）&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         
