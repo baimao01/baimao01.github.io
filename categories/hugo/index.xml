@@ -9,10 +9,10 @@
     <lastBuildDate>Mon, 24 Jan 2022 10:42:34 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何使用hugo搭建网站并部署到github</title>
-      <link>https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</link>
+      <link>https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</link>
       <pubDate>Mon, 24 Jan 2022 10:42:34 +0800</pubDate>
       
-      <guid>https://baimao01.github.io/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</guid>
+      <guid>https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</guid>
       <description>前言 概述  1.零成本，使用hugo搭建个人网站并部署在GitHub Page上。 2.本文不能让你对hugo有全面的认知，由此需求请自行搜索教程或阅读官方文档。 3.由于GitHub属于国外的在国内使用体验较差，建议使用国内的Gitee，两者均通用。  相关链接  hugo中文官网 hugo官网 hugo中文官网皮肤列表 hugo官网皮肤列表 hugo下载 git下载  搭建博客 搭建博客之前的准备 下载安装 我们打开相关链接中的hugo下载以及git下载，按照一下方法下载安装。
  hugo 选择你的系统进行下载，以我的为例   ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。 hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows+R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示   就代表安装成功了。 git 下载，在相关链接内找到git下载，打开链接后我们安装你的选择64-bit Git for Windows (如果你的系统是32位就选择32-bit Git for Windows)。下载下来后我们打开Git的安装包然后按Next选择你要安装的位置，之后一直按Next即可。  GitHub Page  我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置，   都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。  开始搭建博客  创建本地个人网站 按照之前的方法打开cmd并输入hugo new site 你的网站的名字 ，就在C:User/你的用户名字/ 下生成了一个文件夹，打开它。 添加主题 之后我们就需要为我们的网站添加一个主题，首先在相关链接内打开hugo官网皮肤列表(中文也可以但是主题较少)，找到你喜欢的主题之后打开，在打开之后的网页里点击download，把主题下载下来后复制到次路径 C:User/你的用户名字/你的网站名字/themes 目录下之后把主题文件解压并安装当时下载主题时作者告诉你的名字把解压下来的文件命名为那个，之后把主题文件的压缩包删除。然后在解压出来并重新命名的文件夹打开找到以下目录exampleSite打开，把里面的config.toml和content文件夹复制出来到 你的网站名字里替换（如果那个文件夹里没有config.</description>
     </item>
