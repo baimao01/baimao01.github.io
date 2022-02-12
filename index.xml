@@ -6,12 +6,71 @@
         <description>Recent content on 白 猫</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Mon, 24 Jan 2022 10:42:34 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Feb 2022 18:49:42 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Stack主题的修改</title>
+        <link>https://baimao01.github.io/2022/stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/</link>
+        <pubDate>Sat, 12 Feb 2022 18:49:42 +0800</pubDate>
+        
+        <guid>https://baimao01.github.io/2022/stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;大家看完&lt;a class=&#34;link&#34; href=&#34;https://baimao01.github.io/2022/%e5%a6%82%e4%bd%95%e4%bd%bf%e7%94%a8hugo%e6%90%ad%e5%bb%ba%e7%bd%91%e7%ab%99%e5%b9%b6%e9%83%a8%e7%bd%b2%e5%88%b0github/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;如何使用hugo搭建网站并部署到github&lt;/a&gt;可能就想修改自己网站的图标但是网上可能没有找到有用的教程，以及其它的样式。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;编辑器工具: VS code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;修改&#34;&gt;修改&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;首先我们需要在C:\Users\你的系统用户名字\你的网站名字\themes\你的主题名字 目录下创建static文件夹然后打开在里面创建img文件夹，在里面放入你的网站图标并且命名为favicon。&lt;/li&gt;
+&lt;li&gt;之后打开C:\Users\你的系统用户名字\你的网站名字 目录下的config.yaml文件（后缀可能是toml），&lt;figure style=&#34;flex-grow: 16; flex-basis: 39px&#34;&gt;
+		&lt;a href=&#34;https://baimao01.github.io/2022/stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9.png&#34; data-size=&#34;514x3106&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9.png&#34;
+				srcset=&#34;https://baimao01.github.io/2022/stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9_hud287da799b6aaa2620b04e35f3ad10fb_156292_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9_hud287da799b6aaa2620b04e35f3ad10fb_156292_1024x0_resize_box_3.png 1024w&#34;
+				width=&#34;514&#34;
+				height=&#34;3106&#34;
+				loading=&#34;lazy&#34;
+				&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt;按照次图片以及下文修改即可（#是注释的意思，没有注释就按照此图片修改即可）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseurl: https://baimao01.github.io #你的网站地址
+languageCode: zh-CN
+theme: hugo-theme-stack #你的主题名字
+paginate: 5
+title: 白 猫 #你在网站中显示的名字
+
+
+# Change it to your Disqus shortname before using
+disqusShortname: hugo-theme-stack #你的主题名字
+
+# GA Tracking ID
+googleAnalytics:
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl #支持的语言
+DefaultContentLanguage: zh-cn
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;params:
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+    favicon: /img/favicon.jpg #你的网站图标，按照上面的教程填写即可
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sidebar:
+        emoji: 
+        subtitle: 一个喜欢玩游戏也喜欢做游戏的普通人。 #你的简介
+        avatar:
+            local: true
+            src: img/avatar.jpg #文件在 你的网站名字\themes\你的主题名字\assets\img目录下，默认可能没有也可能有，随便找一张你想当作头像的图片放进去并命名为avatar即可（jpg是文件后缀按照你的后缀填写即可）
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;未完待续&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>如何使用hugo搭建网站并部署到github</title>
-        <link>https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</link>
+        <link>https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</link>
         <pubDate>Mon, 24 Jan 2022 10:42:34 +0800</pubDate>
         
-        <guid>https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</guid>
+        <guid>https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;h3 id=&#34;概述&#34;&gt;概述&lt;/h3&gt;
 &lt;ul&gt;
@@ -40,8 +99,8 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;hugo 选择你的系统进行下载，以我的为例 &lt;figure style=&#34;flex-grow: 143; flex-basis: 344px&#34;&gt;
-		&lt;a href=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png&#34; data-size=&#34;1046x728&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png&#34;
-				srcset=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_480x0_resize_box_3.png 480w, https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_1024x0_resize_box_3.png 1024w&#34;
+		&lt;a href=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png&#34; data-size=&#34;1046x728&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png&#34;
+				srcset=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_1024x0_resize_box_3.png 1024w&#34;
 				width=&#34;1046&#34;
 				height=&#34;728&#34;
 				loading=&#34;lazy&#34;
@@ -52,8 +111,8 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows+R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示 &lt;figure style=&#34;flex-grow: 1735; flex-basis: 4164px&#34;&gt;
-		&lt;a href=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png&#34; data-size=&#34;642x37&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png&#34;
-				srcset=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_480x0_resize_box_3.png 480w, https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_1024x0_resize_box_3.png 1024w&#34;
+		&lt;a href=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png&#34; data-size=&#34;642x37&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png&#34;
+				srcset=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_1024x0_resize_box_3.png 1024w&#34;
 				width=&#34;642&#34;
 				height=&#34;37&#34;
 				loading=&#34;lazy&#34;
@@ -69,8 +128,8 @@
 &lt;h4 id=&#34;github-page&#34;&gt;GitHub Page&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置， &lt;figure style=&#34;flex-grow: 150; flex-basis: 361px&#34;&gt;
-		&lt;a href=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png&#34; data-size=&#34;1125x746&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png&#34;
-				srcset=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_480x0_resize_box_3.png 480w, https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_1024x0_resize_box_3.png 1024w&#34;
+		&lt;a href=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png&#34; data-size=&#34;1125x746&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png&#34;
+				srcset=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_1024x0_resize_box_3.png 1024w&#34;
 				width=&#34;1125&#34;
 				height=&#34;746&#34;
 				loading=&#34;lazy&#34;
@@ -95,8 +154,8 @@
 &lt;h4 id=&#34;写文章&#34;&gt;写文章&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;首先我们打开cmd输入[cd 你的博客名称]然后输入[hugo new post/这个文章的文件夹名称/index.md]之后hugo会自动在你写的目录下添加一个文章，然后用你的编辑器打开你的文章，你会发现一些字，所以我们先来认识一下这些字是什么意思。（可以先把自动添加的字删除，复制本文章的字进去），本文格式为&lt;figure style=&#34;flex-grow: 143; flex-basis: 344px&#34;&gt;
-		&lt;a href=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F.png&#34; data-size=&#34;337x235&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F.png&#34;
-				srcset=&#34;https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_480x0_resize_box_3.png 480w, https://baimao01.github.io/pyear/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_1024x0_resize_box_3.png 1024w&#34;
+		&lt;a href=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F.png&#34; data-size=&#34;337x235&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F.png&#34;
+				srcset=&#34;https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_1024x0_resize_box_3.png 1024w&#34;
 				width=&#34;337&#34;
 				height=&#34;235&#34;
 				loading=&#34;lazy&#34;
@@ -107,7 +166,8 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;将博客上传到互联网&#34;&gt;将博客上传到互联网&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;首先在C:\Users\你的用户名字\你的博客名字 目录下右键打开git bash here（也可以使用cmd但是为了所有命令都能顺利执行所以使用git本身）输入[hugo]等执行完弹出下一个时再输入[cd public]依旧是等执行完之后再输入[git init] (建议输入2次)之后输入[git add -A] (只需要输入1次)之后再输入[git commit -am&amp;quot;init&amp;rdquo;]之后输入[git remote add origin_ssh git@github.com:你的仓库名字/你的仓库名字.github.io.git] （例如我的是[git remote add origin_ssh git@github.com:baimao01/baimao01.github.io.git]建议输入2次）最后再输入[git push -f origin_ssh master]即可上传，然后你的网站地址就是 你的仓库名字.github.io （打开后可能没有任何内容，过一会就有了）。&lt;/li&gt;
+&lt;li&gt;首先打开config.yaml文件（后缀可能是toml），之后找到baseurl: 将后面的删除（只删除那一行后面的）把你的网站网址填写在后面。&lt;/li&gt;
+&lt;li&gt;然后在C:\Users\你的用户名字\你的博客名字 目录下右键打开git bash here（也可以使用cmd但是为了所有命令都能顺利执行所以使用git本身）输入[hugo]等执行完弹出下一个时再输入[cd public]依旧是等执行完之后再输入[git init] (建议输入2次)之后输入[git add -A] (只需要输入1次)之后再输入[git commit -am&amp;quot;init&amp;rdquo;]之后输入[git remote add origin_ssh git@github.com:你的仓库名字/你的仓库名字.github.io.git] （例如我的是[git remote add origin_ssh git@github.com:baimao01/baimao01.github.io.git]建议输入2次）最后再输入[git push -f origin_ssh master]即可上传，然后你的网站地址就是 你的仓库名字.github.io （打开后可能没有任何内容，过一会就有了）。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;更新你的博客&#34;&gt;更新你的博客&lt;/h3&gt;
 &lt;ul&gt;
