@@ -59,6 +59,48 @@
 </description>
         </item>
         <item>
+        <title>unity ｜ 如何使用unity 1</title>
+        <link>https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/</link>
+        <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/</guid>
+        <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;本文所有内容都是作者自己的经验，不能让你对unity有完整的理解。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;相关链接&#34;&gt;相关链接&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://unity.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;unity官网&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://unity.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;unity中文官网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://unity.cn/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;unity中文官网下载&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;由于官网在国外所以不推荐使用unity官网，推荐使用unity中文官网。&lt;/li&gt;
+&lt;li&gt;请先下载unity hub并在unity hub内下载unity版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;下载安装&#34;&gt;下载安装&lt;/h2&gt;
+&lt;p&gt;下载好unity hub后打开并登录你的unity帐号，之后点击设置，在设置里找到许可证。点击添加，找到获取免费的个人版许可证，点击后会出现一个界面，直接点中间的同意即可。&lt;/p&gt;
+&lt;h2 id=&#34;添加一个项目&#34;&gt;添加一个项目&lt;/h2&gt;
+&lt;p&gt;在unity hub的主界面找到新项目（旧版本叫做添加）并点击，在显示出来的界面中可以看到&lt;figure style=&#34;flex-grow: 177; flex-basis: 426px&#34;&gt;
+		&lt;a href=&#34;https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/unity%E6%B7%BB%E5%8A%A0%E9%A1%B9%E7%9B%AE.png&#34; data-size=&#34;1280x720&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/unity%E6%B7%BB%E5%8A%A0%E9%A1%B9%E7%9B%AE.png&#34;
+				srcset=&#34;https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/unity%E6%B7%BB%E5%8A%A0%E9%A1%B9%E7%9B%AE_hu44446576d55ba0506345ae3c4d91eb3a_82789_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/unity%E6%B7%BB%E5%8A%A0%E9%A1%B9%E7%9B%AE_hu44446576d55ba0506345ae3c4d91eb3a_82789_1024x0_resize_box_3.png 1024w&#34;
+				width=&#34;1280&#34;
+				height=&#34;720&#34;
+				loading=&#34;lazy&#34;
+				&gt;
+		&lt;/a&gt;
+		
+	&lt;/figure&gt;如果你做的是3D游戏就选择3D核心模版，如果是2D则选择2D核心模版，在项目设置那里可以设置这个项目的名字和存放路径&lt;/p&gt;
+&lt;h2 id=&#34;基础配置&#34;&gt;基础配置&lt;/h2&gt;
+&lt;h3 id=&#34;设置中文&#34;&gt;设置中文&lt;/h3&gt;
+&lt;p&gt;添加并打开一个项目后你会发现他的界面是英文的所以我们需要把它改成中文的。找到最上方的Edit在里面倒数第5个打开后在里面的倒数第2个找到之后在里面的第2个选项里调成简体中文，然后你的unity就变成中文了，但是你可能发现只有少部分变成了中文。所以需要重启编辑器，重启后就会发现编辑器里大部分都变成了中文。&lt;/p&gt;
+&lt;h2 id=&#34;预告&#34;&gt;预告&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;咕咕咕，这篇文章应该在16号写的但是我在15号写当然要咕一咕啦。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
         <title>hugo ｜ Stack主题的修改</title>
         <link>https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/</link>
         <pubDate>Sat, 12 Feb 2022 18:49:42 +0800</pubDate>
