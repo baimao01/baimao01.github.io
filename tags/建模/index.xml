@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>建模 on 白 猫</title>
+    <link>https://baimao01.github.io/tags/%E5%BB%BA%E6%A8%A1/</link>
+    <description>Recent content in 建模 on 白 猫</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://baimao01.github.io/tags/%E5%BB%BA%E6%A8%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blockbench ｜ 如何使用blockbench建模</title>
+      <link>https://baimao01.github.io/2022/blockbench-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8blockbench%E5%BB%BA%E6%A8%A1/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://baimao01.github.io/2022/blockbench-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8blockbench%E5%BB%BA%E6%A8%A1/</guid>
+      <description>简介  本文所有内容都是作者自己的经验，不能让你对blockbench有完整的理解。  相关链接  blockbench官网 blockbench官网下载地址 blockbench下载地址 注：此下载地址是作者从官网下载好后发送的 原因：官网下载速度慢  下载安装 首先使用相关链接的blockbench下载地址下载，下载好后打开并安装。
+基础配置 打开后界面可能是英文的也可能是中文的（作者本人是中文的），所以需要修改成中文，如果本来就是中文的可以直接跳过。
+开始创作 在打开后的界面中找到自由模型并点击，然后会有一个界面直接点击界面中的确定（如果你要为这个模型命名就在文件名的地方填入它的名字）。
+初识blockbench 移动视角 旋转视角，按住左键即可。拖动视角,按住右键。
+认识blockbench中建模会经常用到的工具 在界面右下角有4个东西叫做大纲，会经常用到，例如添加物体。 在界面左上方也有4个工具，都是会经常用到的。
+文件夹 想要使用blockbench建模肯定要先认识blockbench啦。在界面右下角找到一个文件夹图标点击它，之后下面会出现一个文件夹。
+网格 点击上面的小钻石图标，这样就会在那个文件夹中创建一个网格这是建模时会经常用到的东西之一。
+拖动物体 拖动物体属于刚刚说的第一种工具，可以将物体移动到其他位置。
+缩放物体 缩放物体属于刚刚说的第二种工具，可以将物体放大缩小。
+旋转物体 旋转物体属于刚刚说的第三种工具，可以将物体旋转到一个方向上。
+修改物体中心的位置 修改物体中心的位置属于刚刚说的第四种工具，可以将物体的中心移动到其他位置（不会将物体本身移动）。
+可能会用到的工具 在界面左上方有1个工具，他不会被经常用到（本人认为）。
+ 一个写着自身的按钮（不知道干嘛的）。  后言 恭喜你看得这里你已经掌握作者所知道的blockbench知识了。 在官网下载blockbench真的下载了很久，发下载链接就是不想让大家受苦。</description>
+    </item>
+    
+  </channel>
+</rss>
