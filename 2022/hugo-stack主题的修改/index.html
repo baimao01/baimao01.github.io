@@ -16,6 +16,9 @@
 <meta name="twitter:description" content="前言 大家看完如何使用hugo搭建网站并部署到github可能就想修改自己网站的图标但是网上可能没有找到有用的教程，以及其它的样式。
  编辑器工具: VS code  修改  首先我们需要在C:\Users\你的系统用户名字\你的网站名字\themes\你的主题名字 目录下创建static文件夹然后打开在里面创建img文件夹，在里面放入你的网站图标并且命名为favicon。 之后打开C:\Users\你的系统用户名字\你的网站名字 目录下的config.yaml文件（后缀可能是toml）， 按照次图片以及下文修改即可（#是注释的意思，没有注释就按照此图片修改即可）  baseurl: https://baimao01.github.io #你的网站地址 languageCode: zh-CN theme: hugo-theme-stack #你的主题名字 paginate: 5 title: 白 猫 #你在网站中显示的名字 # Change it to your Disqus shortname before using disqusShortname: hugo-theme-stack #你的主题名字 # GA Tracking ID googleAnalytics: # Theme i18n support # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl #支持的语言 DefaultContentLanguage: zh-cn params: mainSections: - post featuredImageField: image rssFullContent: true favicon: /img/favicon.">
     <link rel="shortcut icon" href="/img/favicon.jpg" />
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
 
     </head>
     <body class="
@@ -154,7 +157,22 @@ menu:
     main: 
         weight: -90
         pre: user //这个是他的图标可在themes\hugo-theme-stack\assets\icons目录下找到对应名称的svg文件。
-</code></pre>
+</code></pre><h2 id="修改所有相应分类">修改所有相应分类</h2>
+<p>相信大家的文章多了就会发现文章的分类颜色都是不一样的，通过以下代码可以修改所有对应名称的分类。</p>
+<blockquote>
+<p>位置在 你的博客名称/content/categories目录下新建对应分类名称的文件夹，并在文件夹中创建一个_index.md文件。</p>
+</blockquote>
+<pre tabindex="0"><code>---
+title: &quot;分类名称&quot;
+image: 
+style:
+    background: &quot;#F0F8FF&quot; //分类颜色
+    color: &quot;#000000&quot; //字体颜色
+---
+</code></pre><blockquote>
+<p>颜色都是十六进制的哦~</p>
+</blockquote>
+
 </section>
 
 
@@ -204,6 +222,30 @@ menu:
         <h2 class="section-title">相关文章</h2>
         <div class="related-contents">
             <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/2022/hugo-%E5%A6%82%E4%BD%95%E5%B0%86%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E8%87%B3%E5%85%B6%E4%BB%96%E4%BD%8D%E7%BD%AE/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Hugo ｜ 如何将本地博客迁移至其他位置</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
+    <a href="/2022/hugo-%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E7%9A%84%E6%96%87%E7%AB%A0%E9%87%8C%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E7%BD%91%E7%AB%99/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">hugo ｜ 如何在hugo的文章里插入图片及网站</h2>
+        </div>
+    </a>
+</article>
                 
                     
 <article class="">
@@ -291,8 +333,14 @@ menu:
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
         Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.5.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        <span id="busuanzi_container_site_uv">
+            本站访客数<span id="busuanzi_value_site_uv"></span>人次
+          </span>
     </section>
 </footer>
+
+
+
 
     
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -396,6 +444,7 @@ menu:
     <li><a href="#前言">前言</a></li>
     <li><a href="#修改">修改</a></li>
     <li><a href="#添加左侧栏的页面">添加左侧栏的页面</a></li>
+    <li><a href="#修改所有相应分类">修改所有相应分类</a></li>
   </ol>
 </nav>
                 </div>
@@ -420,6 +469,36 @@ menu:
         document.head.appendChild(customFont);
     }());
 </script>
-
+<script
+    src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/ribbon.min.js"
+    integrity="sha384-UEK8ZiP3VgFNP8KnKMKDmd4pAUAOJ59Y2Jo3ED2Z5qKQf6HLHovMxq7Beb9CLPUe"
+    crossorigin="anonymous"
+    size="300"
+    alpha="0.6"
+    zindex="-1"
+    defer
+></script>
+<script
+    src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
+    integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
+    crossorigin="anonymous"
+></script>
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/css/nprogress.css"
+    integrity="sha384-KJyhr2syt5+4M9Pz5dipCvTrtvOmLk/olWVdfhAp858UCa64Ia5GFpTN7+G4BWpE"
+    crossorigin="anonymous"
+/>
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
+</script>
+<script
+    src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+    async
+></script>
     </body>
 </html>
