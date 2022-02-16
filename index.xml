@@ -94,16 +94,13 @@
 &lt;h2 id=&#34;基础配置&#34;&gt;基础配置&lt;/h2&gt;
 &lt;h3 id=&#34;设置中文&#34;&gt;设置中文&lt;/h3&gt;
 &lt;p&gt;添加并打开一个项目后你会发现他的界面是英文的所以我们需要把它改成中文的。找到最上方的Edit在里面倒数第5个打开后在里面的倒数第2个找到之后在里面的第2个选项里调成简体中文，然后你的unity就变成中文了，但是你可能发现只有少部分变成了中文。所以需要重启编辑器，重启后就会发现编辑器里大部分都变成了中文。&lt;/p&gt;
-&lt;h2 id=&#34;预告&#34;&gt;预告&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;咕咕咕，这篇文章应该在16号写的但是我在15号写当然要咕一咕啦。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
 </description>
         </item>
         <item>
         <title>hugo ｜ Stack主题的修改</title>
         <link>https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/</link>
-        <pubDate>Sat, 12 Feb 2022 18:49:42 +0800</pubDate>
+        <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
         
         <guid>https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
@@ -154,10 +151,18 @@ DefaultContentLanguage: zh-cn
         avatar:
             local: true
             src: img/avatar.jpg #文件在 你的网站名字\themes\你的主题名字\assets\img目录下，默认可能没有也可能有，随便找一张你想当作头像的图片放进去并命名为avatar即可（jpg是文件后缀按照你的后缀填写即可）
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;未完待续&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;添加左侧栏的页面&#34;&gt;添加左侧栏的页面&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这个是作者无意间发现的。
+在page文件夹中新建一个任意名称的md文件，然后在里面添加以下代码。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;title: xxx //名称
+date: &#39;xxxx-xx-xx&#39; //创建时间
+menu:
+    main: 
+        weight: -90
+        pre: user //这个是他的图标可在themes\hugo-theme-stack\assets\icons目录下找到对应名称的svg文件。
+&lt;/code&gt;&lt;/pre&gt;</description>
         </item>
         <item>
         <title>hugo ｜ 如何使用hugo搭建网站并部署到github</title>

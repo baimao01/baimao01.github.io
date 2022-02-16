@@ -11,7 +11,7 @@
  编辑器工具: VS code  修改  首先我们需要在C:\Users\你的系统用户名字\你的网站名字\themes\你的主题名字 目录下创建static文件夹然后打开在里面创建img文件夹，在里面放入你的网站图标并且命名为favicon。 之后打开C:\Users\你的系统用户名字\你的网站名字 目录下的config.yaml文件（后缀可能是toml）， 按照次图片以及下文修改即可（#是注释的意思，没有注释就按照此图片修改即可）  baseurl: https://baimao01.github.io #你的网站地址 languageCode: zh-CN theme: hugo-theme-stack #你的主题名字 paginate: 5 title: 白 猫 #你在网站中显示的名字 # Change it to your Disqus shortname before using disqusShortname: hugo-theme-stack #你的主题名字 # GA Tracking ID googleAnalytics: # Theme i18n support # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl #支持的语言 DefaultContentLanguage: zh-cn params: mainSections: - post featuredImageField: image rssFullContent: true favicon: /img/favicon.'>
 <meta property='og:url' content='https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/'>
 <meta property='og:site_name' content='白 猫'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='教程' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='blog' /><meta property='article:published_time' content='2022-02-12T18:49:42&#43;08:00'/><meta property='article:modified_time' content='2022-02-12T18:49:42&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='blog' /><meta property='article:published_time' content='2022-02-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-02-16T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="hugo ｜ Stack主题的修改">
 <meta name="twitter:description" content="前言 大家看完如何使用hugo搭建网站并部署到github可能就想修改自己网站的图标但是网上可能没有找到有用的教程，以及其它的样式。
  编辑器工具: VS code  修改  首先我们需要在C:\Users\你的系统用户名字\你的网站名字\themes\你的主题名字 目录下创建static文件夹然后打开在里面创建img文件夹，在里面放入你的网站图标并且命名为favicon。 之后打开C:\Users\你的系统用户名字\你的网站名字 目录下的config.yaml文件（后缀可能是toml）， 按照次图片以及下文修改即可（#是注释的意思，没有注释就按照此图片修改即可）  baseurl: https://baimao01.github.io #你的网站地址 languageCode: zh-CN theme: hugo-theme-stack #你的主题名字 paginate: 5 title: 白 猫 #你在网站中显示的名字 # Change it to your Disqus shortname before using disqusShortname: hugo-theme-stack #你的主题名字 # GA Tracking ID googleAnalytics: # Theme i18n support # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl #支持的语言 DefaultContentLanguage: zh-cn params: mainSections: - post featuredImageField: image rssFullContent: true favicon: /img/favicon.">
@@ -143,18 +143,24 @@ DefaultContentLanguage: zh-cn
         avatar:
             local: true
             src: img/avatar.jpg #文件在 你的网站名字\themes\你的主题名字\assets\img目录下，默认可能没有也可能有，随便找一张你想当作头像的图片放进去并命名为avatar即可（jpg是文件后缀按照你的后缀填写即可）
-</code></pre><ul>
-<li>未完待续</li>
-</ul>
-
+</code></pre><h2 id="添加左侧栏的页面">添加左侧栏的页面</h2>
+<blockquote>
+<p>这个是作者无意间发现的。
+在page文件夹中新建一个任意名称的md文件，然后在里面添加以下代码。</p>
+</blockquote>
+<pre tabindex="0"><code>title: xxx //名称
+date: 'xxxx-xx-xx' //创建时间
+menu:
+    main: 
+        weight: -90
+        pre: user //这个是他的图标可在themes\hugo-theme-stack\assets\icons目录下找到对应名称的svg文件。
+</code></pre>
 </section>
 
 
     <footer class="article-footer">
     
     <section class="article-tags">
-        
-            <a href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
         
             <a href="/tags/hugo/">hugo</a>
         
@@ -175,7 +181,19 @@ DefaultContentLanguage: zh-cn
 
         <span>Licensed under CC BY-NC-SA 4.0</span>
     </section>
-    </footer>
+    <section class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span class="article-time--modified">
+            最后更新于 Feb 16, 161616 00:00 UTC
+        </span>
+    </section></footer>
 
     
 </article>
@@ -377,6 +395,7 @@ DefaultContentLanguage: zh-cn
   <ol>
     <li><a href="#前言">前言</a></li>
     <li><a href="#修改">修改</a></li>
+    <li><a href="#添加左侧栏的页面">添加左侧栏的页面</a></li>
   </ol>
 </nav>
                 </div>
