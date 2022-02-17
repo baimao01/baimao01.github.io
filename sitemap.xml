@@ -3,30 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://baimao01.github.io/tags/blog/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-17T11:35:02+08:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/categories/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-17T11:35:02+08:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/tags/hugo/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-17T11:35:02+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/2022/hugo-%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E6%88%96github%E4%B8%8A/</loc>
+    <lastmod>2022-02-17T11:35:02+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/post/</loc>
+    <lastmod>2022-02-17T11:35:02+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/tags/</loc>
+    <lastmod>2022-02-17T11:35:02+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2022-02-17T11:35:02+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/</loc>
+    <lastmod>2022-02-17T11:35:02+08:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E7%9A%84%E6%96%87%E7%AB%A0%E9%87%8C%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2022-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E5%B0%86%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E8%87%B3%E5%85%B6%E4%BB%96%E4%BD%8D%E7%BD%AE/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://baimao01.github.io/post/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://baimao01.github.io/tags/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://baimao01.github.io/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://baimao01.github.io/categories/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2022-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/tags/blockbench/</loc>
@@ -60,5 +63,7 @@
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/search/</loc>
+  </url><url>
+    <loc>https://baimao01.github.io/%E9%93%BE%E6%8E%A5/</loc>
   </url>
 </urlset>

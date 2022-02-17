@@ -6,7 +6,17 @@
         <description>Recent content on 白猫</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://baimao01.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 17 Feb 2022 11:35:02 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>hugo ｜ 一键部署到gitee或github上</title>
+        <link>https://baimao01.github.io/2022/hugo-%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E6%88%96github%E4%B8%8A/</link>
+        <pubDate>Thu, 17 Feb 2022 11:35:02 +0800</pubDate>
+        
+        <guid>https://baimao01.github.io/2022/hugo-%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E6%88%96github%E4%B8%8A/</guid>
+        <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+&lt;p&gt;这个教程可以让你只打开一个程序&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>hugo ｜ 如何在hugo的文章里插入图片及网站</title>
         <link>https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E7%9A%84%E6%96%87%E7%AB%A0%E9%87%8C%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E7%BD%91%E7%AB%99/</link>
         <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
@@ -16,12 +26,26 @@
 &lt;p&gt;大家在网站中想做教程的时候肯定需要插入图片，那么如何插入呢？这篇文章会告诉大家。&lt;/p&gt;
 &lt;h2 id=&#34;插入图片&#34;&gt;插入图片&lt;/h2&gt;
 &lt;p&gt;首先需要在文章的目录下放入图片，之后在文章中写入以下代码&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;![鼠标指向时显示的名称](图片名称) //()内的图片名称需要后缀
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这样就可以在文章中插入图片了。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;![鼠标指向时显示的名称](图片名称) //()内的图片名称需要后缀
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这样就可以在文章中插入图片了。&lt;/p&gt;
 &lt;h2 id=&#34;插入网站&#34;&gt;插入网站&lt;/h2&gt;
 &lt;p&gt;在文章中写入以下代码&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[显示名称](网址)
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;[显示名称](网址)
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
         </item>
         <item>
         <title>Hugo ｜ 如何将本地博客迁移至其他位置</title>
@@ -110,16 +134,18 @@
 &lt;h2 id=&#34;下载安装&#34;&gt;下载安装&lt;/h2&gt;
 &lt;p&gt;下载好unity hub后打开并登录你的unity帐号，之后点击设置，在设置里找到许可证。点击添加，找到获取免费的个人版许可证，点击后会出现一个界面，直接点中间的同意即可。&lt;/p&gt;
 &lt;h2 id=&#34;添加一个项目&#34;&gt;添加一个项目&lt;/h2&gt;
-&lt;p&gt;在unity hub的主界面找到新项目（旧版本叫做添加）并点击，在显示出来的界面中可以看到&lt;figure style=&#34;flex-grow: 177; flex-basis: 426px&#34;&gt;
-		&lt;a href=&#34;https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/unity%E6%B7%BB%E5%8A%A0%E9%A1%B9%E7%9B%AE.png&#34; data-size=&#34;1280x720&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/unity%E6%B7%BB%E5%8A%A0%E9%A1%B9%E7%9B%AE.png&#34;
-				srcset=&#34;https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/unity%E6%B7%BB%E5%8A%A0%E9%A1%B9%E7%9B%AE_hu44446576d55ba0506345ae3c4d91eb3a_82789_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/unity%E6%B7%BB%E5%8A%A0%E9%A1%B9%E7%9B%AE_hu44446576d55ba0506345ae3c4d91eb3a_82789_1024x0_resize_box_3.png 1024w&#34;
-				width=&#34;1280&#34;
-				height=&#34;720&#34;
-				loading=&#34;lazy&#34;
-				&gt;
-		&lt;/a&gt;
-		
-	&lt;/figure&gt;如果你做的是3D游戏就选择3D核心模版，如果是2D则选择2D核心模版，在项目设置那里可以设置这个项目的名字和存放路径&lt;/p&gt;
+&lt;p&gt;在unity hub的主界面找到新项目（旧版本叫做添加）并点击，在显示出来的界面中可以看到&lt;img src=&#34;https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/unity%E6%B7%BB%E5%8A%A0%E9%A1%B9%E7%9B%AE.png&#34;
+	width=&#34;1280&#34;
+	height=&#34;720&#34;
+	srcset=&#34;https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/unity%E6%B7%BB%E5%8A%A0%E9%A1%B9%E7%9B%AE_hu44446576d55ba0506345ae3c4d91eb3a_82789_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/unity%E6%B7%BB%E5%8A%A0%E9%A1%B9%E7%9B%AE_hu44446576d55ba0506345ae3c4d91eb3a_82789_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;如果你做的是3D游戏就选择3D核心模版，如果是2D则选择2D核心模版，在项目设置那里可以设置这个项目的名字和存放路径&lt;/p&gt;
 &lt;h2 id=&#34;基础配置&#34;&gt;基础配置&lt;/h2&gt;
 &lt;h3 id=&#34;设置中文&#34;&gt;设置中文&lt;/h3&gt;
 &lt;p&gt;添加并打开一个项目后你会发现他的界面是英文的所以我们需要把它改成中文的。找到最上方的Edit在里面倒数第5个打开后在里面的倒数第2个找到之后在里面的第2个选项里调成简体中文，然后你的unity就变成中文了，但是你可能发现只有少部分变成了中文。所以需要重启编辑器，重启后就会发现编辑器里大部分都变成了中文。&lt;/p&gt;
@@ -141,18 +167,40 @@
 &lt;h2 id=&#34;修改&#34;&gt;修改&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;首先我们需要在C:\Users\你的系统用户名字\你的网站名字\themes\你的主题名字 目录下创建static文件夹然后打开在里面创建img文件夹，在里面放入你的网站图标并且命名为favicon。&lt;/li&gt;
-&lt;li&gt;之后打开C:\Users\你的系统用户名字\你的网站名字 目录下的config.yaml文件（后缀可能是toml），&lt;figure style=&#34;flex-grow: 16; flex-basis: 39px&#34;&gt;
-		&lt;a href=&#34;https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9.png&#34; data-size=&#34;514x3106&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9.png&#34;
-				srcset=&#34;https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9_hud287da799b6aaa2620b04e35f3ad10fb_156292_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9_hud287da799b6aaa2620b04e35f3ad10fb_156292_1024x0_resize_box_3.png 1024w&#34;
-				width=&#34;514&#34;
-				height=&#34;3106&#34;
-				loading=&#34;lazy&#34;
-				&gt;
-		&lt;/a&gt;
-		
-	&lt;/figure&gt;按照次图片以及下文修改即可（#是注释的意思，没有注释就按照此图片修改即可）&lt;/li&gt;
+&lt;li&gt;之后打开C:\Users\你的系统用户名字\你的网站名字 目录下的config.yaml文件（后缀可能是toml），&lt;img src=&#34;https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9.png&#34;
+	width=&#34;514&#34;
+	height=&#34;3106&#34;
+	srcset=&#34;https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9_hud287da799b6aaa2620b04e35f3ad10fb_156292_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9_hud287da799b6aaa2620b04e35f3ad10fb_156292_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;16&#34;
+		data-flex-basis=&#34;39px&#34;
+	
+&gt;按照次图片以及下文修改即可（#是注释的意思，没有注释就按照此图片修改即可）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseurl: https://baimao01.github.io #你的网站地址
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;baseurl: https://baimao01.github.io #你的网站地址
 languageCode: zh-CN
 theme: hugo-theme-stack #你的主题名字
 paginate: 5
@@ -168,42 +216,93 @@ googleAnalytics:
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl #支持的语言
 DefaultContentLanguage: zh-cn
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;params:
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;params:
     mainSections:
         - post
     featuredImageField: image
     rssFullContent: true
     favicon: /img/favicon.jpg #你的网站图标，按照上面的教程填写即可
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sidebar:
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;sidebar:
         emoji: 
         subtitle: 一个喜欢玩游戏也喜欢做游戏的普通人。 #你的简介
         avatar:
             local: true
             src: img/avatar.jpg #文件在 你的网站名字\themes\你的主题名字\assets\img目录下，默认可能没有也可能有，随便找一张你想当作头像的图片放进去并命名为avatar即可（jpg是文件后缀按照你的后缀填写即可）
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;添加左侧栏的页面&#34;&gt;添加左侧栏的页面&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;添加左侧栏的页面&#34;&gt;添加左侧栏的页面&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;这个是作者无意间发现的。
 在page文件夹中新建一个任意名称的md文件，然后在里面添加以下代码。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;title: xxx //名称
-date: &#39;xxxx-xx-xx&#39; //创建时间
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;title: xxx //名称
+date: &amp;#39;xxxx-xx-xx&amp;#39; //创建时间
 menu:
     main: 
         weight: -90
         pre: user //这个是他的图标可在themes\hugo-theme-stack\assets\icons目录下找到对应名称的svg文件。
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;修改所有相应分类&#34;&gt;修改所有相应分类&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;修改所有相应分类&#34;&gt;修改所有相应分类&lt;/h2&gt;
 &lt;p&gt;相信大家的文章多了就会发现文章的分类颜色都是不一样的，通过以下代码可以修改所有对应名称的分类。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;位置在 你的博客名称/content/categories目录下新建对应分类名称的文件夹，并在文件夹中创建一个_index.md文件。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;---
-title: &amp;quot;分类名称&amp;quot;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;---
+title: &amp;#34;分类名称&amp;#34;
 image: 
 style:
-    background: &amp;quot;#F0F8FF&amp;quot; //分类颜色
-    color: &amp;quot;#000000&amp;quot; //字体颜色
+    background: &amp;#34;#F0F8FF&amp;#34; //分类颜色
+    color: &amp;#34;#000000&amp;#34; //字体颜色
 ---
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;颜色都是十六进制的哦~&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
@@ -241,28 +340,32 @@ style:
 &lt;p&gt;我们打开相关链接中的hugo下载以及git下载，按照一下方法下载安装。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;hugo 选择你的系统进行下载，以我的为例 &lt;figure style=&#34;flex-grow: 143; flex-basis: 344px&#34;&gt;
-		&lt;a href=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png&#34; data-size=&#34;1046x728&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png&#34;
-				srcset=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_1024x0_resize_box_3.png 1024w&#34;
-				width=&#34;1046&#34;
-				height=&#34;728&#34;
-				loading=&#34;lazy&#34;
-				&gt;
-		&lt;/a&gt;
-		
-	&lt;/figure&gt; ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。&lt;/p&gt;
+&lt;p&gt;hugo 选择你的系统进行下载，以我的为例 &lt;img src=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png&#34;
+	width=&#34;1046&#34;
+	height=&#34;728&#34;
+	srcset=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;344px&#34;
+	
+&gt; ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows+R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示 &lt;figure style=&#34;flex-grow: 1735; flex-basis: 4164px&#34;&gt;
-		&lt;a href=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png&#34; data-size=&#34;642x37&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png&#34;
-				srcset=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_1024x0_resize_box_3.png 1024w&#34;
-				width=&#34;642&#34;
-				height=&#34;37&#34;
-				loading=&#34;lazy&#34;
-				&gt;
-		&lt;/a&gt;
-		
-	&lt;/figure&gt; 就代表安装成功了。&lt;/p&gt;
+&lt;p&gt;hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows+R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示 &lt;img src=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png&#34;
+	width=&#34;642&#34;
+	height=&#34;37&#34;
+	srcset=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1735&#34;
+		data-flex-basis=&#34;4164px&#34;
+	
+&gt; 就代表安装成功了。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;git 下载，在相关链接内找到git下载，打开链接后我们安装你的选择64-bit Git for Windows (如果你的系统是32位就选择32-bit Git for Windows)。下载下来后我们打开Git的安装包然后按Next选择你要安装的位置，之后一直按Next即可。&lt;/p&gt;
@@ -270,16 +373,18 @@ style:
 &lt;/ul&gt;
 &lt;h4 id=&#34;github-page&#34;&gt;GitHub Page&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置， &lt;figure style=&#34;flex-grow: 150; flex-basis: 361px&#34;&gt;
-		&lt;a href=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png&#34; data-size=&#34;1125x746&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png&#34;
-				srcset=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_1024x0_resize_box_3.png 1024w&#34;
-				width=&#34;1125&#34;
-				height=&#34;746&#34;
-				loading=&#34;lazy&#34;
-				&gt;
-		&lt;/a&gt;
-		
-	&lt;/figure&gt; 都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。&lt;/li&gt;
+&lt;li&gt;我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置， &lt;img src=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png&#34;
+	width=&#34;1125&#34;
+	height=&#34;746&#34;
+	srcset=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;361px&#34;
+	
+&gt; 都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;github-ssh配置&#34;&gt;Github SSH配置&lt;/h4&gt;
 &lt;ul&gt;
@@ -296,16 +401,18 @@ style:
 &lt;/ul&gt;
 &lt;h4 id=&#34;写文章&#34;&gt;写文章&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;首先我们打开cmd输入[cd 你的博客名称]然后输入[hugo new post/这个文章的文件夹名称/index.md]之后hugo会自动在你写的目录下添加一个文章，然后用你的编辑器打开你的文章，你会发现一些字，所以我们先来认识一下这些字是什么意思。（可以先把自动添加的字删除，复制本文章的字进去），本文格式为&lt;figure style=&#34;flex-grow: 143; flex-basis: 344px&#34;&gt;
-		&lt;a href=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F.png&#34; data-size=&#34;337x235&#34;&gt;&lt;img src=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F.png&#34;
-				srcset=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_1024x0_resize_box_3.png 1024w&#34;
-				width=&#34;337&#34;
-				height=&#34;235&#34;
-				loading=&#34;lazy&#34;
-				&gt;
-		&lt;/a&gt;
-		
-	&lt;/figure&gt;，title: &amp;ldquo;&amp;ldquo;是你的文章名字（名字在&amp;quot;&amp;ldquo;内写）date: xx 是你文章的创建时间，生成这个文章时会自动填写，categories: -xxx是你的文章类别，tags: -xxx是你的文章标签。&lt;/li&gt;
+&lt;li&gt;首先我们打开cmd输入[cd 你的博客名称]然后输入[hugo new post/这个文章的文件夹名称/index.md]之后hugo会自动在你写的目录下添加一个文章，然后用你的编辑器打开你的文章，你会发现一些字，所以我们先来认识一下这些字是什么意思。（可以先把自动添加的字删除，复制本文章的字进去），本文格式为&lt;img src=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F.png&#34;
+	width=&#34;337&#34;
+	height=&#34;235&#34;
+	srcset=&#34;https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_480x0_resize_box_3.png 480w, https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;143&#34;
+		data-flex-basis=&#34;344px&#34;
+	
+&gt;，title: &amp;ldquo;&amp;ldquo;是你的文章名字（名字在&amp;quot;&amp;ldquo;内写）date: xx 是你文章的创建时间，生成这个文章时会自动填写，categories: -xxx是你的文章类别，tags: -xxx是你的文章标签。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;将博客上传到互联网&#34;&gt;将博客上传到互联网&lt;/h4&gt;
 &lt;ul&gt;

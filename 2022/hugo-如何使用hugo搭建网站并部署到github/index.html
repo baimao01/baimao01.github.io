@@ -2,31 +2,30 @@
 <html lang="zh-cn">
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='前言 概述  1.零成本，使用hugo搭建个人网站并部署在GitHub Page上。 2.本文不能让你对hugo有全面的认知，由此需求请自行搜索教程或阅读官方文档。 3.由于GitHub属于国外的在国内使用体验较差，建议使用国内的Gitee，两者均通用。 4.本文会在cmd，git等的命令用括号括起来方便阅读所以之需要输入括号内的字符不需要括号本身，例如[cd 你博客的名称]  相关链接  hugo中文官网 hugo官网 hugo中文官网皮肤列表 hugo官网皮肤列表 hugo下载 git下载  搭建博客 搭建博客之前的准备 下载安装 我们打开相关链接中的hugo下载以及git下载，按照一下方法下载安装。
-  hugo 选择你的系统进行下载，以我的为例   ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。
-  hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows&#43;R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示   就代表安装成功了。
+  hugo 选择你的系统进行下载，以我的为例 ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。
+  hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows&#43;R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示 就代表安装成功了。
   git 下载，在相关链接内找到git下载，打开链接后我们安装你的选择64-bit Git for Windows (如果你的系统是32位就选择32-bit Git for Windows)。下载下来后我们打开Git的安装包然后按Next选择你要安装的位置，之后一直按Next即可。
-  GitHub Page  我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置，   都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。  Github SSH配置  先在C:\Users\你的名字\目录下右键在菜单内找到并点击Git Bash Here然后输入[ssh-keygen -t rea -C &amp;ldquo;你注册Github的邮箱地址&amp;rdquo;]之后一直按4次回车（在上一个回车按完并且弹出下一个时），之后会在你的C:\Users\你的名字\目录下生成一个.'><title>hugo ｜ 如何使用hugo搭建网站并部署到github</title>
+  GitHub Page  我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置， 都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。  Github SSH配置  先在C:\Users\你的名字\目录下右键在菜单内找到并点击Git Bash Here然后输入[ssh-keygen -t rea -C &amp;ldquo;你注册Github的邮箱地址&amp;rdquo;]之后一直按4次回车（在上一个回车按完并且弹出下一个时），之后会在你的C:\Users\你的名字\目录下生成一个.ssh文件夹我们打开它。然后你会看到2个文件，一个是没有后缀的和有后缀的（如果都没有显示后缀就在网上查找方法）我们用任意一个文本编辑器打开有后缀的那个文件，然后同时按下Ctrl&#43;A选中全部文本，之后再Ctrl&#43;C复制。然后打开Github页面，左键点击你的头像，在弹出的页面内选择Settings。之后在打开的页面内找到 SSH and GPG keys并点击，找到绿色的New SSH key按钮并点击，在打开的页面里找到Key下面的框框并点击把你刚刚复制的东西Ctrl&#43;V粘贴到里面，之后在上面的Tile里随便写一些字（白猫写的是自己GitHub的名字）。之后找到下面的Add SSH key按钮并点击，然后我们的SSH密钥就配置完成了。  开始搭建博客 在本地创建博客  按照之前的方法打开cmd并输入hugo new site 你的网站的名字 ，就在C:User/你的用户名字/ 下生成了一个文件夹，打开它。  添加主题  首先我们就需要为我们的网站添加一个主题，首先在相关链接内打开hugo官网皮肤列表(中文也可以但是主题较少)，找到你喜欢的主题之后打开，在打开之后的网页里点击download，把主题下载下来后复制到次路径 C:User/你的用户名字/你的网站名字/themes 目录下之后把主题文件解压并安装当时下载主题时作者告诉你的名字把解压下来的文件命名为那个，之后把主题文件的压缩包删除。然后在解压出来并重新命名的文件夹打开找到以下目录exampleSite打开，把里面的config.'><title>hugo ｜ 如何使用hugo搭建网站并部署到github</title>
 
 <link rel='canonical' href='https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='hugo ｜ 如何使用hugo搭建网站并部署到github'>
+<link rel="stylesheet" href="/scss/style.min.bbcfef3c56489f1f37b552146da519e6b6a74a4c92792bcc512c78e2f55f25e1.css"><meta property='og:title' content='hugo ｜ 如何使用hugo搭建网站并部署到github'>
 <meta property='og:description' content='前言 概述  1.零成本，使用hugo搭建个人网站并部署在GitHub Page上。 2.本文不能让你对hugo有全面的认知，由此需求请自行搜索教程或阅读官方文档。 3.由于GitHub属于国外的在国内使用体验较差，建议使用国内的Gitee，两者均通用。 4.本文会在cmd，git等的命令用括号括起来方便阅读所以之需要输入括号内的字符不需要括号本身，例如[cd 你博客的名称]  相关链接  hugo中文官网 hugo官网 hugo中文官网皮肤列表 hugo官网皮肤列表 hugo下载 git下载  搭建博客 搭建博客之前的准备 下载安装 我们打开相关链接中的hugo下载以及git下载，按照一下方法下载安装。
-  hugo 选择你的系统进行下载，以我的为例   ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。
-  hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows&#43;R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示   就代表安装成功了。
+  hugo 选择你的系统进行下载，以我的为例 ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。
+  hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows&#43;R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示 就代表安装成功了。
   git 下载，在相关链接内找到git下载，打开链接后我们安装你的选择64-bit Git for Windows (如果你的系统是32位就选择32-bit Git for Windows)。下载下来后我们打开Git的安装包然后按Next选择你要安装的位置，之后一直按Next即可。
-  GitHub Page  我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置，   都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。  Github SSH配置  先在C:\Users\你的名字\目录下右键在菜单内找到并点击Git Bash Here然后输入[ssh-keygen -t rea -C &amp;ldquo;你注册Github的邮箱地址&amp;rdquo;]之后一直按4次回车（在上一个回车按完并且弹出下一个时），之后会在你的C:\Users\你的名字\目录下生成一个.'>
+  GitHub Page  我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置， 都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。  Github SSH配置  先在C:\Users\你的名字\目录下右键在菜单内找到并点击Git Bash Here然后输入[ssh-keygen -t rea -C &amp;ldquo;你注册Github的邮箱地址&amp;rdquo;]之后一直按4次回车（在上一个回车按完并且弹出下一个时），之后会在你的C:\Users\你的名字\目录下生成一个.ssh文件夹我们打开它。然后你会看到2个文件，一个是没有后缀的和有后缀的（如果都没有显示后缀就在网上查找方法）我们用任意一个文本编辑器打开有后缀的那个文件，然后同时按下Ctrl&#43;A选中全部文本，之后再Ctrl&#43;C复制。然后打开Github页面，左键点击你的头像，在弹出的页面内选择Settings。之后在打开的页面内找到 SSH and GPG keys并点击，找到绿色的New SSH key按钮并点击，在打开的页面里找到Key下面的框框并点击把你刚刚复制的东西Ctrl&#43;V粘贴到里面，之后在上面的Tile里随便写一些字（白猫写的是自己GitHub的名字）。之后找到下面的Add SSH key按钮并点击，然后我们的SSH密钥就配置完成了。  开始搭建博客 在本地创建博客  按照之前的方法打开cmd并输入hugo new site 你的网站的名字 ，就在C:User/你的用户名字/ 下生成了一个文件夹，打开它。  添加主题  首先我们就需要为我们的网站添加一个主题，首先在相关链接内打开hugo官网皮肤列表(中文也可以但是主题较少)，找到你喜欢的主题之后打开，在打开之后的网页里点击download，把主题下载下来后复制到次路径 C:User/你的用户名字/你的网站名字/themes 目录下之后把主题文件解压并安装当时下载主题时作者告诉你的名字把解压下来的文件命名为那个，之后把主题文件的压缩包删除。然后在解压出来并重新命名的文件夹打开找到以下目录exampleSite打开，把里面的config.'>
 <meta property='og:url' content='https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/'>
 <meta property='og:site_name' content='白猫'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='hugo' /><meta property='article:tag' content='blog' /><meta property='article:published_time' content='2022-01-24T10:42:34&#43;08:00'/><meta property='article:modified_time' content='2022-01-24T10:42:34&#43;08:00'/>
 <meta name="twitter:title" content="hugo ｜ 如何使用hugo搭建网站并部署到github">
 <meta name="twitter:description" content="前言 概述  1.零成本，使用hugo搭建个人网站并部署在GitHub Page上。 2.本文不能让你对hugo有全面的认知，由此需求请自行搜索教程或阅读官方文档。 3.由于GitHub属于国外的在国内使用体验较差，建议使用国内的Gitee，两者均通用。 4.本文会在cmd，git等的命令用括号括起来方便阅读所以之需要输入括号内的字符不需要括号本身，例如[cd 你博客的名称]  相关链接  hugo中文官网 hugo官网 hugo中文官网皮肤列表 hugo官网皮肤列表 hugo下载 git下载  搭建博客 搭建博客之前的准备 下载安装 我们打开相关链接中的hugo下载以及git下载，按照一下方法下载安装。
-  hugo 选择你的系统进行下载，以我的为例   ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。
-  hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows&#43;R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示   就代表安装成功了。
+  hugo 选择你的系统进行下载，以我的为例 ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。
+  hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows&#43;R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示 就代表安装成功了。
   git 下载，在相关链接内找到git下载，打开链接后我们安装你的选择64-bit Git for Windows (如果你的系统是32位就选择32-bit Git for Windows)。下载下来后我们打开Git的安装包然后按Next选择你要安装的位置，之后一直按Next即可。
-  GitHub Page  我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置，   都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。  Github SSH配置  先在C:\Users\你的名字\目录下右键在菜单内找到并点击Git Bash Here然后输入[ssh-keygen -t rea -C &amp;ldquo;你注册Github的邮箱地址&amp;rdquo;]之后一直按4次回车（在上一个回车按完并且弹出下一个时），之后会在你的C:\Users\你的名字\目录下生成一个.">
+  GitHub Page  我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置， 都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。  Github SSH配置  先在C:\Users\你的名字\目录下右键在菜单内找到并点击Git Bash Here然后输入[ssh-keygen -t rea -C &amp;ldquo;你注册Github的邮箱地址&amp;rdquo;]之后一直按4次回车（在上一个回车按完并且弹出下一个时），之后会在你的C:\Users\你的名字\目录下生成一个.ssh文件夹我们打开它。然后你会看到2个文件，一个是没有后缀的和有后缀的（如果都没有显示后缀就在网上查找方法）我们用任意一个文本编辑器打开有后缀的那个文件，然后同时按下Ctrl&#43;A选中全部文本，之后再Ctrl&#43;C复制。然后打开Github页面，左键点击你的头像，在弹出的页面内选择Settings。之后在打开的页面内找到 SSH and GPG keys并点击，找到绿色的New SSH key按钮并点击，在打开的页面里找到Key下面的框框并点击把你刚刚复制的东西Ctrl&#43;V粘贴到里面，之后在上面的Tile里随便写一些字（白猫写的是自己GitHub的名字）。之后找到下面的Add SSH key按钮并点击，然后我们的SSH密钥就配置完成了。  开始搭建博客 在本地创建博客  按照之前的方法打开cmd并输入hugo new site 你的网站的名字 ，就在C:User/你的用户名字/ 下生成了一个文件夹，打开它。  添加主题  首先我们就需要为我们的网站添加一个主题，首先在相关链接内打开hugo官网皮肤列表(中文也可以但是主题较少)，找到你喜欢的主题之后打开，在打开之后的网页里点击download，把主题下载下来后复制到次路径 C:User/你的用户名字/你的网站名字/themes 目录下之后把主题文件解压并安装当时下载主题时作者告诉你的名字把解压下来的文件命名为那个，之后把主题文件的压缩包删除。然后在解压出来并重新命名的文件夹打开找到以下目录exampleSite打开，把里面的config.">
     <link rel="shortcut icon" href="/img/favicon.jpg" />
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
+
     </head>
     <body class="
     article-page has-toc
@@ -60,7 +59,7 @@
 ">
     
         <div id="article-toolbar">
-            <a href="https://baimao01.github.io" class="back-home">
+            <a href="/" class="back-home">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <polyline points="15 6 9 12 15 18" />
@@ -81,7 +80,7 @@
     <header class="article-category">
         
             <a href="/categories/%E7%BC%96%E7%A8%8B/" style="background-color: #F0F8FF; color: #000000;">
-                编程
+                技术
             </a>
         
     </header>
@@ -91,8 +90,28 @@
         <a href="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/">hugo ｜ 如何使用hugo搭建网站并部署到github</a>
     </h2>
 
+    
+
+    
     <footer class="article-time">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 24, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="12" cy="12" r="9" />
   <polyline points="12 7 12 12 15 15" />
@@ -100,11 +119,19 @@
 
 
 
-        <time class="article-time--published">Jan 24, 2022</time>
-    </footer></div>
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
 </header>
 
     <section class="article-content">
+    
+    
     <h2 id="前言">前言</h2>
 <h3 id="概述">概述</h3>
 <ul>
@@ -132,28 +159,32 @@
 <p>我们打开相关链接中的hugo下载以及git下载，按照一下方法下载安装。</p>
 <ul>
 <li>
-<p>hugo 选择你的系统进行下载，以我的为例 <figure style="flex-grow: 143; flex-basis: 344px">
-		<a href="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png" data-size="1046x728"><img src="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png"
-				srcset="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_480x0_resize_box_3.png 480w, /2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_1024x0_resize_box_3.png 1024w"
-				width="1046"
-				height="728"
-				loading="lazy"
-				>
-		</a>
-		
-	</figure> ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。</p>
+<p>hugo 选择你的系统进行下载，以我的为例 <img src="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png"
+	width="1046"
+	height="728"
+	srcset="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_480x0_resize_box_3.png 480w, /2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87_hu11028310a8a4936809b7cdcede2f81f1_94799_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="143"
+		data-flex-basis="344px"
+	
+> ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。</p>
 </li>
 <li>
-<p>hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows+R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示 <figure style="flex-grow: 1735; flex-basis: 4164px">
-		<a href="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png" data-size="642x37"><img src="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png"
-				srcset="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_480x0_resize_box_3.png 480w, /2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_1024x0_resize_box_3.png 1024w"
-				width="642"
-				height="37"
-				loading="lazy"
-				>
-		</a>
-		
-	</figure> 就代表安装成功了。</p>
+<p>hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows+R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示 <img src="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png"
+	width="642"
+	height="37"
+	srcset="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_480x0_resize_box_3.png 480w, /2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F_hu091fb081ef1c0bc5a52d86fb6c8c51e1_2168_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="1735"
+		data-flex-basis="4164px"
+	
+> 就代表安装成功了。</p>
 </li>
 <li>
 <p>git 下载，在相关链接内找到git下载，打开链接后我们安装你的选择64-bit Git for Windows (如果你的系统是32位就选择32-bit Git for Windows)。下载下来后我们打开Git的安装包然后按Next选择你要安装的位置，之后一直按Next即可。</p>
@@ -161,16 +192,18 @@
 </ul>
 <h4 id="github-page">GitHub Page</h4>
 <ul>
-<li>我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置， <figure style="flex-grow: 150; flex-basis: 361px">
-		<a href="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png" data-size="1125x746"><img src="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png"
-				srcset="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_480x0_resize_box_3.png 480w, /2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_1024x0_resize_box_3.png 1024w"
-				width="1125"
-				height="746"
-				loading="lazy"
-				>
-		</a>
-		
-	</figure> 都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。</li>
+<li>我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置， <img src="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png"
+	width="1125"
+	height="746"
+	srcset="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_480x0_resize_box_3.png 480w, /2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA_hu9b32bc18ce6ada5580cba880e8230258_79117_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="150"
+		data-flex-basis="361px"
+	
+> 都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。</li>
 </ul>
 <h4 id="github-ssh配置">Github SSH配置</h4>
 <ul>
@@ -187,16 +220,18 @@
 </ul>
 <h4 id="写文章">写文章</h4>
 <ul>
-<li>首先我们打开cmd输入[cd 你的博客名称]然后输入[hugo new post/这个文章的文件夹名称/index.md]之后hugo会自动在你写的目录下添加一个文章，然后用你的编辑器打开你的文章，你会发现一些字，所以我们先来认识一下这些字是什么意思。（可以先把自动添加的字删除，复制本文章的字进去），本文格式为<figure style="flex-grow: 143; flex-basis: 344px">
-		<a href="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F.png" data-size="337x235"><img src="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F.png"
-				srcset="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_480x0_resize_box_3.png 480w, /2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_1024x0_resize_box_3.png 1024w"
-				width="337"
-				height="235"
-				loading="lazy"
-				>
-		</a>
-		
-	</figure>，title: &ldquo;&ldquo;是你的文章名字（名字在&quot;&ldquo;内写）date: xx 是你文章的创建时间，生成这个文章时会自动填写，categories: -xxx是你的文章类别，tags: -xxx是你的文章标签。</li>
+<li>首先我们打开cmd输入[cd 你的博客名称]然后输入[hugo new post/这个文章的文件夹名称/index.md]之后hugo会自动在你写的目录下添加一个文章，然后用你的编辑器打开你的文章，你会发现一些字，所以我们先来认识一下这些字是什么意思。（可以先把自动添加的字删除，复制本文章的字进去），本文格式为<img src="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F.png"
+	width="337"
+	height="235"
+	srcset="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_480x0_resize_box_3.png 480w, /2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F_hu46d04e730631237005f164222765fdf6_7451_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="143"
+		data-flex-basis="344px"
+	
+>，title: &ldquo;&ldquo;是你的文章名字（名字在&quot;&ldquo;内写）date: xx 是你文章的创建时间，生成这个文章时会自动填写，categories: -xxx是你的文章类别，tags: -xxx是你的文章标签。</li>
 </ul>
 <h4 id="将博客上传到互联网">将博客上传到互联网</h4>
 <ul>
@@ -236,8 +271,11 @@
     </section>
     </footer>
 
+
     
 </article>
+
+    
 
     <aside class="related-contents--wrapper">
     
@@ -245,6 +283,18 @@
         <h2 class="section-title">相关文章</h2>
         <div class="related-contents">
             <div class="flex article-list--tile">
+                
+                    
+<article class="">
+    <a href="/2022/hugo-%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E6%88%96github%E4%B8%8A/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">hugo ｜ 一键部署到gitee或github上</h2>
+        </div>
+    </a>
+</article>
                 
                     
 <article class="">
@@ -300,7 +350,7 @@
 </aside>
 
      
-     
+    
         
     <div class="disqus-container">
     <div id="disqus_thread"></div>
@@ -351,15 +401,13 @@
         &copy; 
         
         2022 白猫
-        <br/>
-        
     </section>
-
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.5.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.8.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
+    
 </footer>
 
 
@@ -427,11 +475,11 @@
 
 </div><script 
                 src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
-                defer="true"
+                defer
                 >
             </script><script 
                 src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
-                defer="true"
+                defer
                 >
             </script><link 
                 rel="stylesheet" 
@@ -498,7 +546,7 @@
         </div>
         <script 
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
-                defer="false"
+                
                 >
             </script><script type="text/javascript" src="/ts/main.js" defer></script>
 <script>
@@ -539,10 +587,5 @@
         if (document.readyState === "complete") NProgress.done();
     });
 </script>
-<script
-    src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
-    async
-></script>
-
     </body>
 </html>
