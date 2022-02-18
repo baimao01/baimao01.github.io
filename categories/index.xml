@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 白猫</title>
+    <title>Categories on 白 猫</title>
     <link>https://baimao01.github.io/categories/</link>
-    <description>Recent content in Categories on 白猫</description>
+    <description>Recent content in Categories on 白 猫</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 17 Feb 2022 21:55:45 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 11:32:28 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>游戏</title>
+      <link>https://baimao01.github.io/categories/%E6%B8%B8%E6%88%8F/</link>
+      <pubDate>Fri, 18 Feb 2022 11:32:28 +0800</pubDate>
+      
+      <guid>https://baimao01.github.io/categories/%E6%B8%B8%E6%88%8F/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>技术</title>
       <link>https://baimao01.github.io/categories/%E6%8A%80%E6%9C%AF/</link>

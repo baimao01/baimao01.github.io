@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 白猫</title>
+    <title>Posts on 白 猫</title>
     <link>https://baimao01.github.io/post/</link>
-    <description>Recent content in Posts on 白猫</description>
+    <description>Recent content in Posts on 白 猫</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 17 Feb 2022 21:55:45 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 11:32:28 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minecraft ｜ 国际服hypiexl被封号怎么办</title>
+      <link>https://baimao01.github.io/2022/minecraft-%E5%9B%BD%E9%99%85%E6%9C%8Dhypiexl%E8%A2%AB%E5%B0%81%E5%8F%B7%E6%80%8E%E4%B9%88%E5%8A%9E/</link>
+      <pubDate>Fri, 18 Feb 2022 11:32:28 +0800</pubDate>
+      
+      <guid>https://baimao01.github.io/2022/minecraft-%E5%9B%BD%E9%99%85%E6%9C%8Dhypiexl%E8%A2%AB%E5%B0%81%E5%8F%B7%E6%80%8E%E4%B9%88%E5%8A%9E/</guid>
+      <description>简介 大家在游玩hypiexl时延迟很高，但是使用了加速IP、加速器被封号怎么办？别怕这期教程会帮你解决。 注册hypiexl官网帐号 被封号后注</description>
+    </item>
+    
     <item>
       <title>hugo ｜ 正确使用stack主题</title>
       <link>https://baimao01.github.io/2022/hugo-%E6%AD%A3%E7%A1%AE%E4%BD%BF%E7%94%A8stack%E4%B8%BB%E9%A2%98/</link>

@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://baimao01.github.io/tags/blog/</loc>
-    <lastmod>2022-02-17T21:55:45+08:00</lastmod>
-  </url><url>
     <loc>https://baimao01.github.io/categories/</loc>
+    <lastmod>2022-02-18T11:32:28+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/tags/minecraft/</loc>
+    <lastmod>2022-02-18T11:32:28+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/2022/minecraft-%E5%9B%BD%E9%99%85%E6%9C%8Dhypiexl%E8%A2%AB%E5%B0%81%E5%8F%B7%E6%80%8E%E4%B9%88%E5%8A%9E/</loc>
+    <lastmod>2022-02-18T11:32:28+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/post/</loc>
+    <lastmod>2022-02-18T11:32:28+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/tags/</loc>
+    <lastmod>2022-02-18T11:32:28+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2022-02-18T11:32:28+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/</loc>
+    <lastmod>2022-02-18T11:32:28+08:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/tags/blog/</loc>
     <lastmod>2022-02-17T21:55:45+08:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/tags/hugo/</loc>
@@ -14,17 +32,8 @@
     <loc>https://baimao01.github.io/2022/hugo-%E6%AD%A3%E7%A1%AE%E4%BD%BF%E7%94%A8stack%E4%B8%BB%E9%A2%98/</loc>
     <lastmod>2022-02-17T21:55:45+08:00</lastmod>
   </url><url>
-    <loc>https://baimao01.github.io/post/</loc>
-    <lastmod>2022-02-17T21:55:45+08:00</lastmod>
-  </url><url>
-    <loc>https://baimao01.github.io/tags/</loc>
-    <lastmod>2022-02-17T21:55:45+08:00</lastmod>
-  </url><url>
     <loc>https://baimao01.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-02-17T21:55:45+08:00</lastmod>
-  </url><url>
-    <loc>https://baimao01.github.io/</loc>
-    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/2022/hugo-%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E6%88%96github%E4%B8%8A/</loc>
     <lastmod>2022-02-17T00:00:00+00:00</lastmod>
@@ -65,8 +74,8 @@
     <loc>https://baimao01.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://baimao01.github.io/search/</loc>
+    <loc>https://baimao01.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
   </url><url>
-    <loc>https://baimao01.github.io/%E9%93%BE%E6%8E%A5/</loc>
+    <loc>https://baimao01.github.io/search/</loc>
   </url>
 </urlset>
