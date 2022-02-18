@@ -6,14 +6,23 @@
     <description>Recent content in hugo on 白猫</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 17 Feb 2022 11:35:02 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Feb 2022 21:55:45 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo ｜ 正确使用stack主题</title>
+      <link>https://baimao01.github.io/2022/hugo-%E6%AD%A3%E7%A1%AE%E4%BD%BF%E7%94%A8stack%E4%B8%BB%E9%A2%98/</link>
+      <pubDate>Thu, 17 Feb 2022 21:55:45 +0800</pubDate>
+      
+      <guid>https://baimao01.github.io/2022/hugo-%E6%AD%A3%E7%A1%AE%E4%BD%BF%E7%94%A8stack%E4%B8%BB%E9%A2%98/</guid>
+      <description>简介 今天准备更新博客的主题版本时发现使用3.0.0以上版本时会报错，之后在下载位置往下找到3.0.0时发现在3.0.0及以上版本时需要使用扩</description>
+    </item>
+    
     <item>
       <title>hugo ｜ 一键部署到gitee或github上</title>
       <link>https://baimao01.github.io/2022/hugo-%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E6%88%96github%E4%B8%8A/</link>
-      <pubDate>Thu, 17 Feb 2022 11:35:02 +0800</pubDate>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://baimao01.github.io/2022/hugo-%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E6%88%96github%E4%B8%8A/</guid>
-      <description>简介 这个教程可以让你只打开一个程序</description>
+      <description>简介 这个教程可以让你只打开一个程序就将你的网站部署到github page上。 部署脚本 第一次使用 如果是第一次使用的话不推荐使用，因为只有在第一</description>
     </item>
     
     <item>
@@ -22,11 +31,7 @@
       <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E7%9A%84%E6%96%87%E7%AB%A0%E9%87%8C%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E7%BD%91%E7%AB%99/</guid>
-      <description>简介 大家在网站中想做教程的时候肯定需要插入图片，那么如何插入呢？这篇文章会告诉大家。
-插入图片 首先需要在文章的目录下放入图片，之后在文章中写入以下代码
-1  ![鼠标指向时显示的名称](图片名称) //()内的图片名称需要后缀   这样就可以在文章中插入图片了。
-插入网站 在文章中写入以下代码
-1  [显示名称](网址)   </description>
+      <description>简介 大家在网站中想做教程的时候肯定需要插入图片，那么如何插入呢？这篇文章会告诉大家。 插入图片 首先需要在文章的目录下放入图片，之后在文章中写入</description>
     </item>
     
     <item>
@@ -35,8 +40,7 @@
       <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E5%B0%86%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E8%87%B3%E5%85%B6%E4%BB%96%E4%BD%8D%E7%BD%AE/</guid>
-      <description>简介 大家搭建只用hugo框架的网站的时候肯定遇到过这个网站在本地的位置不对，所以需要将本地的移动到其他位置但是又不敢怕已经部署好的会出问题。
-直接移动法 如果要把在C盘目录下的移动到其他目录就要在要移动到的目录下新建一个文件夹（名称随意也可以用自己网站的网址），之后把C盘目录下的复制一份（不用剪切是怕失败导致所有文章等消失），之后在移动到的文件夹下粘贴即可，完成后不需要重新部署。</description>
+      <description>简介 大家搭建只用hugo框架的网站的时候肯定遇到过这个网站在本地的位置不对，所以需要将本地的移动到其他位置但是又不敢怕已经部署好的会出问题。</description>
     </item>
     
     <item>
@@ -45,8 +49,7 @@
       <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://baimao01.github.io/2022/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/</guid>
-      <description>前言 大家看完如何使用hugo搭建网站并部署到github可能就想修改自己网站的图标但是网上可能没有找到有用的教程，以及其它的样式。
- 编辑器工具: VS code  修改  首先我们需要在C:\Users\你的系统用户名字\你的网站名字\themes\你的主题名字 目录下创建static文件夹然后打开在里面创建img文件夹，在里面放入你的网站图标并且命名为favicon。 之后打开C:\Users\你的系统用户名字\你的网站名字 目录下的config.yaml文件（后缀可能是toml），按照次图片以及下文修改即可（#是注释的意思，没有注释就按照此图片修改即可）  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  baseurl: https://baimao01.github.io #你的网站地址 languageCode: zh-CN theme: hugo-theme-stack #你的主题名字 paginate: 5 title: 白 猫 #你在网站中显示的名字 # Change it to your Disqus shortname before using disqusShortname: hugo-theme-stack #你的主题名字 # GA Tracking ID googleAnalytics: # Theme i18n support # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl #支持的语言 DefaultContentLanguage: zh-cn   1 2 3 4 5 6  params: mainSections: - post featuredImageField: image rssFullContent: true favicon: /img/favicon.</description>
+      <description>前言 大家看完如何使用hugo搭建网站并部署到github可能就想修改自己网站的图标但是网上可能没有找到有用的教程，以及其它的样式。 编辑器工具</description>
     </item>
     
     <item>
@@ -55,11 +58,7 @@
       <pubDate>Mon, 24 Jan 2022 10:42:34 +0800</pubDate>
       
       <guid>https://baimao01.github.io/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</guid>
-      <description>前言 概述  1.零成本，使用hugo搭建个人网站并部署在GitHub Page上。 2.本文不能让你对hugo有全面的认知，由此需求请自行搜索教程或阅读官方文档。 3.由于GitHub属于国外的在国内使用体验较差，建议使用国内的Gitee，两者均通用。 4.本文会在cmd，git等的命令用括号括起来方便阅读所以之需要输入括号内的字符不需要括号本身，例如[cd 你博客的名称]  相关链接  hugo中文官网 hugo官网 hugo中文官网皮肤列表 hugo官网皮肤列表 hugo下载 git下载  搭建博客 搭建博客之前的准备 下载安装 我们打开相关链接中的hugo下载以及git下载，按照一下方法下载安装。
-  hugo 选择你的系统进行下载，以我的为例 ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。
-  hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows+R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示 就代表安装成功了。
-  git 下载，在相关链接内找到git下载，打开链接后我们安装你的选择64-bit Git for Windows (如果你的系统是32位就选择32-bit Git for Windows)。下载下来后我们打开Git的安装包然后按Next选择你要安装的位置，之后一直按Next即可。
-  GitHub Page  我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置， 都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。  Github SSH配置  先在C:\Users\你的名字\目录下右键在菜单内找到并点击Git Bash Here然后输入[ssh-keygen -t rea -C &amp;ldquo;你注册Github的邮箱地址&amp;rdquo;]之后一直按4次回车（在上一个回车按完并且弹出下一个时），之后会在你的C:\Users\你的名字\目录下生成一个.ssh文件夹我们打开它。然后你会看到2个文件，一个是没有后缀的和有后缀的（如果都没有显示后缀就在网上查找方法）我们用任意一个文本编辑器打开有后缀的那个文件，然后同时按下Ctrl+A选中全部文本，之后再Ctrl+C复制。然后打开Github页面，左键点击你的头像，在弹出的页面内选择Settings。之后在打开的页面内找到 SSH and GPG keys并点击，找到绿色的New SSH key按钮并点击，在打开的页面里找到Key下面的框框并点击把你刚刚复制的东西Ctrl+V粘贴到里面，之后在上面的Tile里随便写一些字（白猫写的是自己GitHub的名字）。之后找到下面的Add SSH key按钮并点击，然后我们的SSH密钥就配置完成了。  开始搭建博客 在本地创建博客  按照之前的方法打开cmd并输入hugo new site 你的网站的名字 ，就在C:User/你的用户名字/ 下生成了一个文件夹，打开它。  添加主题  首先我们就需要为我们的网站添加一个主题，首先在相关链接内打开hugo官网皮肤列表(中文也可以但是主题较少)，找到你喜欢的主题之后打开，在打开之后的网页里点击download，把主题下载下来后复制到次路径 C:User/你的用户名字/你的网站名字/themes 目录下之后把主题文件解压并安装当时下载主题时作者告诉你的名字把解压下来的文件命名为那个，之后把主题文件的压缩包删除。然后在解压出来并重新命名的文件夹打开找到以下目录exampleSite打开，把里面的config.</description>
+      <description>前言 概述 1.零成本，使用hugo搭建个人网站并部署在GitHub Page上。 2.本文不能让你对hugo有全面的认知，由此需求请自行搜索教程或</description>
     </item>
     
   </channel>

@@ -22,8 +22,7 @@
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://baimao01.github.io/%E5%85%B3%E4%BA%8E/</guid>
-      <description>关于我 一只从啥都不会的猫，变成一个爱编程的猫。
-关于博客 博客分类  技术 建模  文章数  7篇  </description>
+      <description>关于我 一只从啥都不会的猫，变成一个爱编程的猫。 关于博客 博客分类 技术 建模 文章数 7篇</description>
     </item>
     
     <item>
@@ -41,9 +40,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://baimao01.github.io/%E9%93%BE%E6%8E%A5/</guid>
-      <description>To use this feature, add links section to frontmatter.
-This page&amp;rsquo;s frontmatter:
-1 2 3 4 5 6 7 8 9  links:- title:GitHubdescription:GitHub is the world&amp;#39;s largest software development platform.website:https://github.comimage:https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png- title:TypeScriptdescription:TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.website:https://www.typescriptlang.orgimage:ts-logo-128.jpg  image field accepts both local and external images.</description>
+      <description>To use this feature, add links section to frontmatter. This page&amp;rsquo;s frontmatter: 1 2 3 4 5 6 7 8 9 links:- title:GitHubdescription:GitHub is the world&amp;#39;s largest software development platform.website:https://github.comimage:https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png- title:TypeScriptdescription:TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.website:https://www.typescriptlang.orgimage:ts-logo-128.jpg image field accepts both local and external images.</description>
     </item>
     
   </channel>
