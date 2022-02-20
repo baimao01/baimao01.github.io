@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on bai mao 01</title>
+    <title>Pages on Bai Mao</title>
     <link>https://baimao01.github.io/page/</link>
-    <description>Recent content in Pages on bai mao 01</description>
+    <description>Recent content in Pages on Bai Mao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 12 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://baimao01.github.io/page/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://baimao01.github.io/%E5%85%B3%E4%BA%8E/</guid>
-      <description>关于我 一只从啥都不会的猫，变成一个爱编程的猫。 关于博客 主题 stack3.8.0 hugo hugo 0.92.2扩展版本 博客分类 技术 建模 文章数 9篇</description>
+      <description>关于我 一只从啥都不会的猫，变成一个爱编程的猫。 关于博客 主题 stack3.8.0 hugo hugo 0.92.2扩展版本 博客分类 技术 建模 游戏 语法</description>
     </item>
     
     <item>
@@ -26,12 +26,12 @@
     </item>
     
     <item>
-      <title>友情链接</title>
-      <link>https://baimao01.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
+      <title>友链</title>
+      <link>https://baimao01.github.io/%E5%8F%8B%E9%93%BE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://baimao01.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
-      <description>我没有朋友（哭）</description>
+      <guid>https://baimao01.github.io/%E5%8F%8B%E9%93%BE/</guid>
+      <description>我没有朋友（T^T）</description>
     </item>
     
     <item>
