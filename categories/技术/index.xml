@@ -6,7 +6,16 @@
     <description>Recent content in 技术 on Bai Mao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 18 Feb 2022 22:05:38 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://baimao01.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo ｜ 为blog加入waline评论区</title>
+      <link>https://baimao01.github.io/2022/hugo-%E4%B8%BAblog%E5%8A%A0%E5%85%A5waline%E8%AF%84%E8%AE%BA%E5%8C%BA/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://baimao01.github.io/2022/hugo-%E4%B8%BAblog%E5%8A%A0%E5%85%A5waline%E8%AF%84%E8%AE%BA%E5%8C%BA/</guid>
+      <description>前言 具体教程最好还是看waline官方的教程waline快速入门 安装waline Vercel 部署 安装waline首先就需要注册一个vercel（别问我</description>
+    </item>
+    
     <item>
       <title>VScode ｜ 如何使用VScode</title>
       <link>https://baimao01.github.io/2022/vscode-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8vscode/</link>

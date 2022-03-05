@@ -1143,6 +1143,18 @@ style:
                 
                     
 <article class="">
+    <a href="/2022/hugo-%E4%B8%BAblog%E5%8A%A0%E5%85%A5waline%E8%AF%84%E8%AE%BA%E5%8C%BA/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">hugo ｜ 为blog加入waline评论区</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="">
     <a href="/2022/hugo-%E6%AD%A3%E7%A1%AE%E4%BD%BF%E7%94%A8stack%E4%B8%BB%E9%A2%98/">
         
         
@@ -1189,18 +1201,6 @@ style:
     </a>
 </article>
                 
-                    
-<article class="">
-    <a href="/2022/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">hugo ｜ 如何使用hugo搭建网站并部署到github</h2>
-        </div>
-    </a>
-</article>
-                
             </div>
         </div>
     
@@ -1216,14 +1216,55 @@ style:
         background-color: var(--card-background);
         border-radius: var(--card-border-radius);
         box-shadow: var(--shadow-l1);
-        padding: var(--card-padding);
+        padding: 3%;  
+ 
     }
     .waline-container .vcount {
         color: var(--card-text-color-main);
     }
-</style><script>
+ 
+     
+    :root{
+        --waline-theme-color: #34495e;  
+        --waline-active-color: #bababa;  
+        --waline-badge-color: #34495e;  
+        --waline-avatar-size: 5rem;
+        --waline-dark-grey: #34495e;  
+        --waline-border-color:transparent;
+    }
+ 
+   
+    :root[data-scheme="dark"] {
+        --waline-theme-color: #acc6e0;
+        --waline-white: #34495e;  
+        --waline-active-color: #8ab1d8;
+        --waline-light-grey: #666;
+        --waline-dark-grey: #acc6e0;  
+        --waline-badge-color: #acc6e0;
+ 
+         
+        --waline-text-color: rgba(255, 255, 255, 0.7);
+        --waline-bgcolor: #515151;
+        --waline-bgcolor-light: #66696b; 
+        --waline-border-color: #9B9C9C;
+        --waline-disable-bgcolor: #444;
+        --waline-disable-color: #272727;
+        --waline-border-color:transparent;
+ 
+         
+        --waline-bq-color:  #9B9C9C;  
+ 
+         
+        --waline-info-bgcolor: #acc6e0;
+        --waline-info-color: #9B9C9C;
+    }
+        .v[data-class=v] .vcontent .vemoji {
+         width:2.2em;  
+         margin:.25em
+     }
+ </style><script>
     
-    new Waline({"avatar":"monsterid","dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"locale":{"admin":"博主"},"requiredMeta":["name","email","url"],"serverURL":"https://blog-api-pbc1dlsa8-baimao01.vercel.app/"});
+    new Waline({"avatar":"monsterid","dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs","https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif","https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png"],"locale":{"admin":"博主"},"requiredMeta":["name","email","url"],"serverURL":"https://blog-api-3v1sge4pd-baimao01.vercel.app/"});
 </script>
 
     
@@ -1234,7 +1275,7 @@ style:
         
         2022 Bai Mao
         <br/>
-        共 11 篇文章
+        共 12 篇文章
         
         
             
@@ -1267,7 +1308,9 @@ style:
         
             
         
-        共写了7.36k字.
+            
+        
+        共写了8.46k字.
     </section>
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
@@ -1435,7 +1478,7 @@ style:
                     <a href="/archives/#2022">
                         
                             <span class="year">2022</span>
-                            <span class="count">11</span>
+                            <span class="count">12</span>
                         
                     </a> 
                 </div>
@@ -1461,7 +1504,7 @@ style:
         <div class="category-list">
             <div class="category-list-item"><a href="https://baimao01.github.io/categories/%E5%BB%BA%E6%A8%A1/" class="category-list-link">建模<span class="category-list-count">1</a>
             </span></div>
-            <div class="category-list-item"><a href="https://baimao01.github.io/categories/%E6%8A%80%E6%9C%AF/" class="category-list-link">技术<span class="category-list-count">8</a>
+            <div class="category-list-item"><a href="https://baimao01.github.io/categories/%E6%8A%80%E6%9C%AF/" class="category-list-link">技术<span class="category-list-count">9</a>
             </span></div>
             <div class="category-list-item"><a href="https://baimao01.github.io/categories/%E6%B8%B8%E6%88%8F/" class="category-list-link">游戏<span class="category-list-count">1</a>
             </span></div>
@@ -1488,11 +1531,11 @@ style:
 
     <div class="tagCloud-tags">
         
-            <a href="/tags/blog/" class="font_size_6">
+            <a href="/tags/blog/" class="font_size_7">
                 blog
             </a>
         
-            <a href="/tags/hugo/" class="font_size_6">
+            <a href="/tags/hugo/" class="font_size_7">
                 hugo
             </a>
         

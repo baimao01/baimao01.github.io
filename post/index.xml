@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Bai Mao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 19 Feb 2022 11:48:48 +0800</lastBuildDate><atom:link href="https://baimao01.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://baimao01.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo ｜ 为blog加入waline评论区</title>
+      <link>https://baimao01.github.io/2022/hugo-%E4%B8%BAblog%E5%8A%A0%E5%85%A5waline%E8%AF%84%E8%AE%BA%E5%8C%BA/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://baimao01.github.io/2022/hugo-%E4%B8%BAblog%E5%8A%A0%E5%85%A5waline%E8%AF%84%E8%AE%BA%E5%8C%BA/</guid>
+      <description>前言 具体教程最好还是看waline官方的教程waline快速入门 安装waline Vercel 部署 安装waline首先就需要注册一个vercel（别问我</description>
+    </item>
+    
     <item>
       <title>Markdown ｜ Markdown语法</title>
       <link>https://baimao01.github.io/2022/markdown-markdown%E8%AF%AD%E6%B3%95/</link>

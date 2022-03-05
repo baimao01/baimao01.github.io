@@ -3,21 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://baimao01.github.io/</loc>
-    <lastmod>2022-02-19T11:48:48+08:00</lastmod>
+    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/tags/blog/</loc>
+    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/categories/</loc>
-    <lastmod>2022-02-19T11:48:48+08:00</lastmod>
+    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/tags/hugo/</loc>
+    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/2022/hugo-%E4%B8%BAblog%E5%8A%A0%E5%85%A5waline%E8%AF%84%E8%AE%BA%E5%8C%BA/</loc>
+    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/post/</loc>
+    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/tags/</loc>
+    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://baimao01.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/tags/markdown/</loc>
     <lastmod>2022-02-19T11:48:48+08:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/2022/markdown-markdown%E8%AF%AD%E6%B3%95/</loc>
-    <lastmod>2022-02-19T11:48:48+08:00</lastmod>
-  </url><url>
-    <loc>https://baimao01.github.io/post/</loc>
-    <lastmod>2022-02-19T11:48:48+08:00</lastmod>
-  </url><url>
-    <loc>https://baimao01.github.io/tags/</loc>
     <lastmod>2022-02-19T11:48:48+08:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/categories/%E8%AF%AD%E6%B3%95/</loc>
@@ -29,9 +41,6 @@
     <loc>https://baimao01.github.io/2022/vscode-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8vscode/</loc>
     <lastmod>2022-02-18T22:05:38+08:00</lastmod>
   </url><url>
-    <loc>https://baimao01.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2022-02-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://baimao01.github.io/tags/minecraft/</loc>
     <lastmod>2022-02-18T11:32:28+08:00</lastmod>
   </url><url>
@@ -40,12 +49,6 @@
   </url><url>
     <loc>https://baimao01.github.io/categories/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2022-02-18T11:32:28+08:00</lastmod>
-  </url><url>
-    <loc>https://baimao01.github.io/tags/blog/</loc>
-    <lastmod>2022-02-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://baimao01.github.io/tags/hugo/</loc>
-    <lastmod>2022-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://baimao01.github.io/2022/hugo-%E6%AD%A3%E7%A1%AE%E4%BD%BF%E7%94%A8stack%E4%B8%BB%E9%A2%98/</loc>
     <lastmod>2022-02-17T21:55:45+08:00</lastmod>
