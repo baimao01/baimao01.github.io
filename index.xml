@@ -49,6 +49,11 @@
 &lt;p&gt;用github作为数据库非常&amp;quot;简单&amp;quot;创建一个仓库（名称为waline，其实随便起一个名字都可以但是为了方便辨认所以取名为waline）将此仓库设置为公开的（public）在下方勾选&lt;code&gt;Add a README file&lt;/code&gt;之后打开&lt;a class=&#34;link&#34; href=&#34;https://github.com/settings/tokens&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;github密钥&lt;/a&gt;在里面点击此按钮&lt;code&gt;Generate new token&lt;/code&gt;在打开的页面里为这个密钥随便取一个名字，找到并勾选&lt;code&gt;repo&lt;/code&gt;选项之后在最下方点击绿色按钮创建即可。详细教程见&lt;a class=&#34;link&#34; href=&#34;https://waline.js.org/guide/server/databases.html#cloudbase&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;waline&lt;/a&gt;在下方找到github按照那些变量填写即可&lt;/p&gt;
+&lt;h4 id=&#34;环境变量填写&#34;&gt;环境变量填写&lt;/h4&gt;
+&lt;p&gt;按照waline教程填写即可，如果使用其他数据库则按照&lt;a class=&#34;link&#34; href=&#34;https://waline.js.org/guide/server/databases.html#cloudbase&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;waline&lt;/a&gt;教程，在里面找到对应数据库名称填写即可。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;剩下你看官方的教程吧我累了不写了QnQ&lt;/p&gt;
 </description>
         </item>
         <item>
