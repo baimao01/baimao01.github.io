@@ -774,51 +774,21 @@ OjAwTltztAAAAABJRU5ErkJggg==" />
      
     
         
-    <script
-    src="https://giscus.app/client.js"
-    data-repo="baimao01/giscus"
-    data-repo-id="giscus"
-    data-category=""
-    data-category-id=""
-    data-mapping="title"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-theme="light"
-    crossorigin="anonymous"
-    async
-></script>
-<script>
-    function setGiscusTheme(theme) {
-        let giscus = document.querySelector('iframe.giscus-frame');
-        if (giscus) {
-            giscus.contentWindow.postMessage(
-                { 
-                    giscus: {
-                        setConfig: { 
-                            theme: theme 
-                        }
-                    }
-                },
-                "https://giscus.app"
-            );
-        };
-    };
-
-    (function(){
-        addEventListener('message', (e) => {
-            if (event.origin !== 'https://giscus.app') return;
-            handler()
-        });
-        window.addEventListener('onColorSchemeChange', handler);
-
-        function handler() {
-            if (document.documentElement.dataset.scheme === "light") {
-                setGiscusTheme('light');
-            } else {
-                setGiscusTheme('dark_dimmed');
-            };
-        };
-    }());
+    <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+<div id="waline" class="waline-container"></div>
+<style>
+    .waline-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+    .waline-container .vcount {
+        color: var(--card-text-color-main);
+    }
+</style><script>
+    
+    new Waline({"dark":"html[data-scheme=\"dark\"]","el":"#waline","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"locale":{"admin":"Admin"},"requiredMeta":["name","email","url"],"serverURL":"https://blog-api-5ipv0gc96-baimao01.vercel.app/"});
 </script>
 
     
